@@ -71,7 +71,6 @@ header {
     margin-top: 40px;
     border: 1px solid #fff; /* Add a white border */
     border-radius: 10px; /* Optional: Add border radius for rounded corners */
-    padding: 10px; /* Optional: Add padding inside the border */
 }
 
 .video-container video {
