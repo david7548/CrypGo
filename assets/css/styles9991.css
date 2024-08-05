@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif; /* Updated font family */
+}
+
+body {
+    background: linear-gradient(180deg, #104873, #104873);
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: rgba(0, 31, 63, 0.9); /* Slightly transparent to make it stand out */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    position: sticky;
+    top: 0;
+    width: 100%; /* Ensure the header spans the full width */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px; /* Space between logo image and text */
+    height: 28px;
+    width: 28px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.social-media-icons a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Space between each icon */
+}
+
+.social-icon {
+    width: 15px; /* Adjust icon size as needed */
+    height: 15px; /* Adjust icon size as needed */
+}
+
+.try-demo1 {
+    background: #104873;
+    color: #fff;
+    padding: 10px 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.hero .try-demo {
+    display: block;
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+    font-family: 'Space Grotesk';
+}
+
+.hero p {
+    color: #9AA3A9;
+    margin-bottom: 40px;
+}
+
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.statistics .stat {
+    flex: 1 1 30%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.statistics .stat h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.why-learn {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.why-learn h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.why-learn .stat {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 1.0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.why-learn .stat h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2px;
+    color: #104873;
+}
+
+.why-learn .stat p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #104873;
+}
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.features p {
+    margin-bottom: 20px;
+    color: #9AA3A9;
+    font-size: .9rem;
+}
+
+.feature p {
+    margin-bottom: 0px;
+}
+
+.features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.features .feature h3 {
+    color: #104873;
+}
+
+
+.features .feature img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.mission {
+    padding: 50px 20px;
+}
+
+.mission h2 {
+    font-size: 2.5rem;
+}
+
+.mission p {
+    font-size: 1rem;
+    color: #9AA3A9;
+}
+
+.mission img {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.follow-twitter {
+    background: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none; /* Remove the default link underline */
+}
+
+.follow-twitter span {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonials p {
+    margin-bottom: 20px;
+    color: #9AA3A9;
+    font-size: .9rem;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Adjust spacing between testimonial cards */
+}
+
+.testimonial {
+    flex: 1 1 30%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+.testimonial p:first-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.testimonial p:last-child {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+.key-takeaways {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.key-takeaways h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Space Grotesk', sans-serif; /* Ensure the correct font is applied */
+}
+
+.takeaways-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Adjust spacing between takeaway cards */
+}
+
+.takeaway {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    flex: 1 1 30%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+    border: 1px solid #fff; /* Add white border */
+    text-align: center; /* Center the text */
+    font-family: 'Space Grotesk', sans-serif; /* Ensure the correct font is applied */
+}
+
+.takeaway-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.takeaway span {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif; /* Ensure the correct font is applied */
+}
+
+
+.cta {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-container1 {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta h2 {
+    font-size: 2.rem;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.try-demo {
+    background: #fff;
+    color: #001f3f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #001f3f;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .statistics, .why-learn .stat, .features .feature, .key-takeaways .takeaway {
+        flex: 1 1 100%;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .features .feature img {
+        height: auto;
+    }
+}
