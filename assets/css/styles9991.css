@@ -5,6 +5,10 @@
     font-family: 'Space Grotesk', sans-serif; /* Updated font family */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: linear-gradient(180deg, #104873, #104873);
     color: #fff;
