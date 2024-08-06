@@ -248,6 +248,7 @@ header {
     align-items: center;
     margin-bottom: 10px;
     text-decoration: none; /* Remove the default link underline */
+    white-space: nowrap;
 }
 
 .follow-twitter span {
