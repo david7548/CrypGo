@@ -423,6 +423,15 @@ footer {
     background: #001f3f;
 }
 
+
+@media (min-width: 768px) {
+    .hero .try-demo {
+        width: auto; /* Adjust width for larger screens */
+        max-width: 200px; /* Set a maximum width for larger screens */
+        margin: 0 auto;
+    }
+}
+
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
     .statistics, .why-learn .stat, .features .feature, .key-takeaways .takeaway {
