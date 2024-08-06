@@ -13,13 +13,13 @@
             height: 100vh;
             margin: 0;
             background-color: #f4f4f4;
+            overflow: hidden;
         }
         .container {
-            width: 80%;
-            height: 80vh;
+            width: 100%;
+            height: 100vh;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: #fff;
-            border-radius: 8px;
             overflow: hidden;
         }
         .header {
@@ -29,8 +29,8 @@
             text-align: center;
         }
         .figma-embed {
-            width: 80%;
-            height: 80%;
+            width: 100%;
+            height: calc(100vh - 50px);
             border: none;
         }
     </style>
@@ -40,9 +40,11 @@
         <div class="header">
             <h1>App Demo</h1>
         </div>
-        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="480" height="450" 
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgwYT4GQ8sGa2c8WTSJlAaB%2Fcrypdex-(Copy)%3Fnode-id%3D15-405%26starting-point-node-id%3D44%253A1952%26t%3Du7M0BG9wiu3kcskM-1" allowfullscreen></iframe>
+        <iframe class="figma-embed" 
+        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgwYT4GQ8sGa2c8WTSJlAaB%2Fcrypdex-(Copy)%3Fnode-id%3D15-405%26starting-point-node-id%3D44%253A1952%26t%3Du7M0BG9wiu3kcskM-1" 
+        allowfullscreen></iframe>
     </div>
 </body>
 </html>
+
 
