@@ -238,12 +238,12 @@ header {
 
 .follow-twitter {
     background: transparent;
-    color: #fff;
-    padding: 10px 20px;
+    color: #7DBFF3;
+    padding: 10px 120px;
     border: 2px solid #fff;
-    border-radius: 25px;
+    border-radius: 10px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 100;
     display: inline-flex;
     align-items: center;
     margin-bottom: 10px;
@@ -370,6 +370,36 @@ header {
 .cta p {
     font-size: 1rem;
     margin-bottom: 20px;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.email-label {
+    font-size: 1rem;
+    color: #16251F;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.email-input:focus {
+    border-color: #007bff;
+    outline: none;
 }
 
 .try-demo {
