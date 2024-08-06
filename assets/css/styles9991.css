@@ -239,7 +239,7 @@ header {
 .follow-twitter {
     background: transparent;
     color: #7DBFF3;
-    padding: 10px 80px;
+    padding: 10px 70px;
     border: 2px solid #fff;
     border-radius: 10px;
     cursor: pointer;
@@ -248,7 +248,6 @@ header {
     align-items: center;
     margin-bottom: 10px;
     text-decoration: none; /* Remove the default link underline */
-    white-space: nowrap;
 }
 
 .follow-twitter span {
